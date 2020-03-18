@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Geeknous Launcher",
+  "description": "Quick launch Geeknous",
+  "version": "1.0",
+  "icons": { "128": "images/icon128.png" },
+  "browser_action": {
+    "default_icon": "images/logo150.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
